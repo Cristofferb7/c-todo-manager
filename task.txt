@@ -1,0 +1,4 @@
+task that can store a description
+defaults not completed
+maybe like a boolean for true or false to see if its done
+save it on an array of struct
