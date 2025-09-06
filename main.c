@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include <task-manager.h>
+#include "task-manager.h"
 
 int main()
 {
-    printf ("welcome to day one\n");
+ Task tasks[MAX_TASKS];
+ int taskCount=0;
+ addTask(tasks, &taskCount);
 
-    return 0;
+ return 0;
 }
